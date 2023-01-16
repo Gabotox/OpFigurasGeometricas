@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Proyecto JavaScript</title>
+</head>
+
+<body>
+    <div class="conte">
+        <header>
+            <div class="contenedor">
+                <div class="logo">
+                    <a href="#">GMEZA</a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="respo">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="cajas">
+                <div class="caja1">
+                    <div class="titulo">
+                        <h1>Cuadrado</h1>
+                    </div>
+                    <div class="cuerpo">
+                        <p>¿Cuánto mide cada lado de tu cuadrado?</p>
+                        <input type="number" placeholder="Ingrese lados" id="lado">
+                        <div class="btn">
+                            <button onclick="perimCuadra()">Perimetro</button>
+                            <button onclick="areaCuadra()">Área</button>
+                        </div>
+                        <p id="resul"></p>
+                    </div>
+                </div>
+                <div class="caja2">
+                    <div class="titulo">
+                        <h1>Triángulo</h1>
+                    </div>
+                    <div class="cuerpo">
+                        <p>¿Cuánto mide cada lado de tu triángulo?</p>
+
+                        <input type="number" placeholder="Ingrese lado 01" id="lado1">
+                        <input type="number" placeholder="Ingrese lado 02" id="lado2">
+                        <input type="number" placeholder="Ingrese lado 03" id="lado3">
+
+                        <button onclick="perimTria()">Perimetro</button>
+                        <p id="resul_tria"></p>
+                        <p class="aqui">¿Cuánto mide base y altura de tu triángulo?</p>
+                        <input type="numb" placeholder="Ingrese Base" id="base">
+                        <input type="number" placeholder="Ingrese altura" id="altura">
+                        <button onclick="areaTria()">Área</button>
+                        <p id="resul_tria_area"></p>
+                    </div>
+                </div>
+                <div class="caja3">
+                    <div class="titulo">
+                        <h1>Círculo</h1>
+                    </div>
+                    <div class="cuerpo">
+                        <p>¿Cuánto mide el radio de tu círculo?</p>
+                        <input type="number" placeholder="Ingrese el radio" id="radio">
+                        <div class="btn">
+                            <button onclick="diametroCirculo()">Diámetro</button>
+                            <button onclick="perimetroCirculo()">Perímetro</button>
+                            <button onclick="areaCirculoo()">Área</button>
+                        </div>
+                        <p id="resul_circu"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
