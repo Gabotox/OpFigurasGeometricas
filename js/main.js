@@ -35,10 +35,10 @@ function perimTria() {
     let lado1 = document.getElementById("lado1");
     let lado2 = document.getElementById("lado2");
     let lado3 = document.getElementById("lado3");
-    ladopri = Number(lado1.value);
-    ladoseg = Number(lado2.value);
-    ladoter = Number(lado3.value);
-    if (ladopri == '' || ladoseg == '' || ladoter == '') {
+    lado1 = Number(lado1.value);
+    lado2 = Number(lado2.value);
+    lado3 = Number(lado3.value);
+    if (lado1 == '' || lado2 == '' || lado3 == '') {
         const resul = `Ingresa valores primero, pedazo de Gil`;
         result_tria.innerHTML = resul;
     } else {
