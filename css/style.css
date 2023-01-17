@@ -84,6 +84,18 @@ span {
     margin: 2px;
     border-radius: 15px;
 }
+.tet {
+    padding: 20px 0;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
 .container {
     width: 100%;
     display: flex;
